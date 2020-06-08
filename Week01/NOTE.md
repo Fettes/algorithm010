@@ -68,5 +68,31 @@ public class DLL {
 It's a doubly Linked List. Check the [API](http://developer.classpath.org/doc/java/util/LinkedList-source.html) here.
 ### Operation
 #### Add
+
 1.  Initialize a new node cur with the given value;
-![Step1](https://github.com/Fettes/algorithm010/blob/master/Week01/Assets/LinkedList_add_1.png).
+
+![Step1](Assets/LinkedList_add_1.png)
+2.  Link the "next" field of cur to prev's next node next;
+
+![Step2](Assets/LinkedList_add_2.png)
+3.  Link the "next" field in prev to cur.  
+
+![Step3](Assets/LinkedList_add_3.png)
+
+#### Deletion
+1.  Find cur's previous node prev and its next node next;
+![Step1](Assets/LinkedList_delete_1.png)
+2.  Link prev to cur's next node next.
+![Step2](Assets/LinkedList_delete_2.png)
+
+## Skip List
+Skip List can only be used when the elements following the order. Its idea came from **AVL Tree** and **Binary Search**.
+Let's see how we come up with Skip List?
+1.  Increase dimension to get level two index.
+![Step1](Assets/SkipList_1.png)
+2.  Imporve the efficiency.
+![Step2](Assets/SkipList_2.png)
+3.  Contunue to improve.
+![Step3](Assets/SkipList_3.png)
+
+The time complexity of search is O($Log n$$).
