@@ -70,4 +70,3 @@ It's a doubly Linked List. Check the [API](http://developer.classpath.org/doc/ja
 #### Add
 1.  Initialize a new node cur with the given value;
 ![Step1](https://github.com/Fettes/algorithm010/blob/master/Week01/Assets/LinkedList_add_1.png).
-<img src="https://github.com/Fettes/algorithm010/blob/master/Week01/Assets/LinkedList_add_1.png" data-canonical-src="https://github.com/Fettes/algorithm010/blob/master/Week01/Assets/LinkedList_add_1.png" width="200" height="400" />
