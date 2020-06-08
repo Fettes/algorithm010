@@ -95,4 +95,4 @@ Let's see how we come up with Skip List?
 3.  Contunue to improve.
 ![Step3](Assets/SkipList_3.png)
 
-The time complexity of search is O($Log n$$).
+The time complexity of search is **O(Log n)**. Because when we add or delete the element, we need to update the whole index. So, time complexity is also **O(Log n)**.
