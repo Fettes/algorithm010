@@ -1,5 +1,3 @@
-package Medium;
-
 /*
  * @lc app=leetcode id=11 lang=java
  *
