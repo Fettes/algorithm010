@@ -9,18 +9,18 @@ package Medium;
 // @lc code=start
 class Solution {
     public int maxArea(int[] height) {
-        int left = 0;
-        int right = height.length - 1;
+        int low = 0;
+        int high = height.length - 1;
 
         int max = 0;
-        while (left < right) {
-            int minHeight = Math.min(height[left], height[right]);
-            max = Math.max(max, minHeight * (right - left));
+        while (low < high) {
+            int minHeight = Math.min(height[low], height[high]);
+            max = Math.max(max, minHeight * (high - low));
             
-            if (height[left] < height[right]) {
-                left++;
+            if (height[low] < height[high]) {
+                low++;
             } else {
-                right--;
+                high--;
             }
         }
         return max;
