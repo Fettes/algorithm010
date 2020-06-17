@@ -1,6 +1,3 @@
-import java.util.Comparator;
-import java.util.PriorityQueue;
-
 /*
  * @lc app=leetcode id=973 lang=java
  *

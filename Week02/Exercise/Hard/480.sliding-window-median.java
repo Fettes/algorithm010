@@ -1,6 +1,3 @@
-import java.util.Collection;
-import java.util.PriorityQueue;
-
 /*
  * @lc app=leetcode id=480 lang=java
  *
