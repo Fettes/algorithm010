@@ -38,6 +38,7 @@ map.put(key, map.getOrDefault(key, 0) + 1) // counting the frequency
 
 ### Collision Resolution
 Referred the [6.5. Hashing](https://runestone.academy/runestone/books/published/pythonds/SortSearch/Hashing.html#fig-hashtable2).
+
 #### Open addressing
 One method for resolving collisions looks into the hash table and tries to find **another open slot** to hold the item that caused the collision. A simple way to do this is to start at the original hash value position and then move in a sequential manner through the slots until we encounter the first slot that is empty. 
 
