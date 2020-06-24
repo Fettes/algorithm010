@@ -1,7 +1,3 @@
-import java.util.HashMap;
-
-import javax.swing.tree.TreeNode;
-
 /*
  * @lc app=leetcode id=105 lang=java
  *
