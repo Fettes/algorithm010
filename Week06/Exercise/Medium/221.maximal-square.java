@@ -1,5 +1,3 @@
-import sun.net.www.content.text.plain;
-
 /*
  * @lc app=leetcode id=221 lang=java
  *
