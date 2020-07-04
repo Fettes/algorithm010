@@ -8,7 +8,7 @@ Binary Search is an algorithm that divides the search space in 2 after every com
 2. **Binary Search** - Using a loop or recursion to divide search space in half after each comparison.
 3. **Post-processing** - Determine viable candidates in the remaining space.
 
-### 3 Templates for Binary Search
+### 2 Templates for Binary Search
 #### Template I
 ```
 int binarySearch(int[] nums, int target){
@@ -76,3 +76,4 @@ int binarySearch(int[] nums, int target){
 > |[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=brightgreen&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Binary%20Seach/278.first-bad-version.java) |
 > |[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=yellow&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Binary%20Seach/162.find-peak-element.java)
 > |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=yellow&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Binary%20Seach/153.find-minimum-in-rotated-sorted-array.java)
+
