@@ -73,4 +73,6 @@ int binarySearch(int[] nums, int target){
 > Sample Problems:
 > |  Problem  | Status |
 > |--------- |------ |
-> 
+> |[First Bad Version](https://leetcode.com/problems/first-bad-version/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=brightgreen&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Binary%20Seach/278.first-bad-version.java) |
+> |[Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=yellow&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Binary%20Seach/162.find-peak-element.java)
+> |[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=yellow&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Binary%20Seach/153.find-minimum-in-rotated-sorted-array.java)
