@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 /*
  * @lc app=leetcode id=62 lang=java
  *
@@ -20,7 +18,7 @@ class Solution {
                 dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
             }
         }
-        return dp[m-  1][n - 1];
+        return dp[m - 1][n - 1];
 
     }
 }
