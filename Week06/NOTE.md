@@ -309,3 +309,6 @@ class Solution {
     }
 }
 ```
+
+## Summary
+As we can see, these six stock problems can be characterized by three factors, the day ``i``, the maximum number of allowable transactions ``k``, and the number of stocks in our hand at the end of the day. The time complexity should ``O(nk)`` time with ``O(k)`` space. 
