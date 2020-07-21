@@ -24,7 +24,9 @@ For example, if we write simple recursive solution for Fibonacci Numbers, we get
 - While some decision problems cannot be taken apart this way, which means we need to solve all the sub-problems. Thus, we call it **Divide & Conquer**.
 
 ## Stock problems DP solution
-This solution is reposted from this [article](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/Most-consistent-ways-of-dealing-with-the-series-of-stock-problems). It is really awesome.
+This solution is reposted from this [article](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/Most-consistent-ways-of-dealing-with-the-series-of-stock-problems). It is really awesome. 这里也有[中文版](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/).
+
+Although I conclude them all and come up with my own idea and solution, they are similar and I need to set the reference.
 
 Leetcode Problems:
 | Problem  | Status |
