@@ -1,4 +1,4 @@
-# Week 5 Study Note
+# Week 6 Study Note
 ## Dynamic Programming
 Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using **Dynamic Programming**. 
 
@@ -152,12 +152,12 @@ class Solution {
 }
 ```
 
-### Best Time to Buy and Sell Stock with Cooldown (k = +Infinity but with cooldown)
+### Best Time to Buy and Sell Stock with Cooldown (k = +Infinity with cooldown)
 For this problem, we need to have the equation:
 
 ```dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])```
 
-```dp[i][k][1] = max(dp[i-1][k][1], dp[i-2][k][0] - prices[i])```
+```dp[i][k][1] = max(dp[i-1][k][1], dp[i-2][k][0] - prices[i])```  
 
 With "cooldown", we cannot buy on the ``i-th`` day if a stock is sold on the (i-1)-th day. Therefore, in the second equation above, instead of ``dp[i-1][k][0]``, we should actually use ``dp[i-2][k][0]`` if we intend to buy on the ``i-th`` day. Everything else remains the same.
 
@@ -181,7 +181,7 @@ class Solution {
 }
 ```
 
-### Best Time to Buy and Sell Stock with Transaction Fee (k = +infinity with fee)
+### Best Time to Buy and Sell Stock with Transaction Fee (k = +Infinity with fee)
 For this problem, we can just add transaction fee like:
 
 ```dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])```
