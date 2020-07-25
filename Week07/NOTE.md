@@ -130,3 +130,42 @@ public class Trie {
 // This code is contributed by Sumit Ghosh 
 
 ```
+
+## Union Find
+
+### Template
+```
+// Java
+class UnionFind { 
+	private int count = 0; 
+	private int[] parent; 
+	public UnionFind(int n) { 
+		count = n; 
+		parent = new int[n]; 
+		for (int i = 0; i < n; i++) { 
+			parent[i] = i;
+		}
+	} 
+	public int find(int p) { 
+		while (p != parent[p]) { 
+			parent[p] = parent[parent[p]]; 
+			p = parent[p]; 
+		}
+		return p; 
+	}
+	public void union(int p, int q) { 
+		int rootP = find(p); 
+		int rootQ = find(q); 
+		if (rootP == rootQ) return; 
+		parent[rootP] = rootQ; 
+		count--;
+	}
+}
+```
+
+> Sample Problems:
+> |  Problem  | Status |
+> |--------- |------- |
+> |[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=brightgryelloween&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Union%20Find/130.surrounded-regions.java) |
+> |[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=yellow&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Union%20Find/200.number-of-islands.java)
+> |[Friend Circles](https://leetcode.com/problems/friend-circles/) | [![View](https://img.shields.io/static/v1?label=View%20My%20Solution&message=√&color=yellow&style=?style=for-the-badge&logo=Github)](https://github.com/Fettes/Coding-Exercise/blob/master/Union%20Find/547.friend-circles.java)
